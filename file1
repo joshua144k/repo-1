@@ -1,0 +1,31 @@
+mkdir (directory name) 
+ls
+go to code – copy 
+github clone  url 
+ls -la
+cat config  ( configuration files)
+cd .. – go back to previous repository
+vi (file   name)
+git status ---- red – untrackable 
+git add (filename) or (git add . ) – to push the file 
+git status  green - trackable 
+git commit -m “This is my first git” 
+git config --global user.email “your email”
+go to the git repository – settings – developer settings -Personal tokens – Generate new tokens 
+git push origin main 
+
+
+
+Create branch , merge , push   
+ git branch Stephen
+  git checkout Stephen
+  vi file1
+  vi file2
+  git status
+  git add .
+  git commit -m "Branch"
+  git checkout main
+  git merge Stephen
+  git status
+  git push origin main
+
